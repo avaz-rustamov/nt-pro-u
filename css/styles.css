@@ -14,6 +14,7 @@ html {
 body {
   font-family: "Futura PT";
   font-weight: 500;
+  background-color: rgb(134, 119, 119);
 }
 .container {
   max-width: 1100px;
@@ -21,6 +22,25 @@ body {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+.site_header {
+  display: flex;
+
+  background-color: #ccc;
+}
+.header-list {
+  display: flex;
+  margin-left: -20px;
+  margin-left: auto;
+}
+.header-list li{
+  margin-left: 20px;
+  list-style: none;
+}
+@media only screen and (max-width: 1000px){
+  .header-list {
+    display: none;
+  }
 }
 
 
